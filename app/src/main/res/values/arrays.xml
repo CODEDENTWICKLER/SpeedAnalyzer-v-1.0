@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="distance_unit_entries">
+        <item>Kilometers</item>
+        <item>Meters</item>
+    </array>
+
+    <array name="distance_unit_values">
+        <item>km</item>
+        <item>m</item>
+    </array>
+
+    <array name="speed_unit_entries">
+        <item>Kilometers per hour</item>
+        <item>Meters per second</item>
+    </array>
+
+    <array name="speed_unit_values">
+        <item>km/hr</item>
+        <item>m/s</item>
+    </array>
+
+</resources>

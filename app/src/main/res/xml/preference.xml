@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="@string/pref_distance_unit_default"
+        android:entries="@array/distance_unit_entries"
+        android:entryValues="@array/distance_unit_values"
+        android:key="@string/pref_distance_unit_key"
+        android:persistent="true"
+        android:title="@string/pref_distance_unit_label"
+        />
+
+    <ListPreference
+        android:defaultValue="@string/pref_speed_unit_default"
+        android:entries="@array/speed_unit_entries"
+        android:entryValues="@array/speed_unit_values"
+        android:key="@string/pref_speed_unit_key"
+        android:persistent="true"
+        android:title="@string/pref_speed_unit_label" />
+
+</PreferenceScreen>
